@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+:root {
+    --f1: 'Poppins', sans-serif;
+    --f2: 'Josefin Sans', sans-serif;
+    --f3: 'Gotham', sans-serif;
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 700;
+    src: url(/fonts/gotham/GothamBold.otf);
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 100;
+    src: url(/fonts/gotham/GothamThin.otf);
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 300;
+    src: url(/fonts/gotham/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 500;
+    src: url(/fonts/gotham/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 400;
+    src: url(/fonts/gotham/GothamBook.ttf);
+}
+
+@font-face {
+    font-family: 'Gotham';
+    font-weight: 900;
+    src: url(/fonts/gotham/GothamBlack.otf);
+}
+
+.gotham {
+    font-family: var(--f3)
+}
+
+body {
+    font-family: var(--f1)
+}
+
+.box-price:before {
+    content: "Rs ";
+}
+
+@media (min-width: 768px) {
+    .second-bottom,
+    body {
+        width: 65rem
+    }
+}
+
+.favxxx {
+    color: rgb(79 70 229 / var(--tw-text-opacity))!important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
